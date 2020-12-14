@@ -52,13 +52,13 @@ body {
     padding: 0;
     right: -27px;
     margin: 0 0 -240px;
-    
+
     background-color: rgba(25, 23, 32, 0.5);
     list-style-type: none;
-    
+
     transform-origin: 0% 0%;
     transform: translate(150%, 0);
-    
+
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 
     color: #FFF;
@@ -94,7 +94,7 @@ body {
 @media (min-width: 1024px) {
     .header {
         height: 616px;
-    } 
+    }
 
     .hamburger__logo {
         display: none;
@@ -162,17 +162,17 @@ body {
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    
+
     background: #FBFCFF;
     border-radius: 3px;
-    
+
     z-index: 1;
-    
+
     transform-origin: 4px 0px;
-    
+
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                opacity 0.55s ease;
+    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;
 }
 
 .navigation input:checked ~ .hamburger__logo span {
@@ -183,13 +183,13 @@ body {
 
 .navigation input:checked ~ .hamburger__logo span:nth-last-child(2)
 {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 .navigation input:checked ~ .hamburger__logo span:nth-last-child(3)
 {
-  transform: rotate(45deg) translate(2px, -1px);
+    transform: rotate(45deg) translate(2px, -1px);
 }
 
 .navigation input:checked ~ .hamburger__menu {
@@ -409,7 +409,7 @@ body {
     margin-left: 14px;
     cursor: pointer;
 }
-  
+
 .beatsPill__colors-container input[type=radio]:checked + label:before {
     border: 1px solid black;
 }
@@ -426,7 +426,7 @@ body {
     font-weight: normal;
     font-size: 32px;
     line-height: 39px;
-    
+
     margin: 0;
 }
 .beatsPill__payment-button {
@@ -446,7 +446,7 @@ body {
     font-weight: 500;
     font-size: 13px;
     line-height: 18px;
-    
+
     opacity: 0.68;
 }
 
@@ -461,7 +461,7 @@ body {
 
     .beatsPill__image-container {
         margin-top: -56px;
-        
+
         width: auto;
     }
 
@@ -479,11 +479,11 @@ body {
         position: absolute;
         top: 500px;
     }
-    
+
     .dots input[type='radio'] {
         display: none;
     }
-    
+
     .dots label:before {
         content: " ";
         display: inline-block;
@@ -494,7 +494,7 @@ body {
         margin-left: 14px;
         cursor: pointer;
     }
-      
+
     .dots input[type=radio]:checked + label:before {
         background-color:black;
     }
@@ -538,7 +538,7 @@ body {
     font-size: 32px;
     line-height: 55px;
     text-transform: uppercase;
-    
+
     color: #2B2835;
 }
 
@@ -566,7 +566,7 @@ body {
     font-weight: normal;
     font-size: 32px;
     line-height: 39px;
-    
+
     margin: 0;
 }
 .powerBeats__payment-button {
@@ -587,7 +587,7 @@ body {
     font-weight: 500;
     font-size: 13px;
     line-height: 18px;
-    
+
     opacity: 0.68;
 }
 
@@ -595,7 +595,7 @@ body {
     .powerBeats {
         flex-direction: row;
         align-items: center;
-        justify-content: center;    
+        justify-content: center;
     }
 
     .powerBeats__bg {
@@ -768,7 +768,7 @@ body {
     .item {
         width: 400px;
     }
-    
+
     .collection:nth-child(1) .item .item__description {
         bottom: 0;
     }
@@ -842,9 +842,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 17px;
-    
+
     color: #030303;
-    
+
     opacity: 0.31;
 }
 
@@ -860,7 +860,7 @@ body {
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
-    
+
     color: #000000;
 }
 
@@ -869,7 +869,7 @@ body {
         width: 40%;
     }
 
-    .feedback { 
+    .feedback {
         max-width: 1300px;
         max-height: 335px;
         margin: 0 auto 65px;
